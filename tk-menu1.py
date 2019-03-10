@@ -27,23 +27,22 @@ def choose(arg):
          root.quit()
 
 
-b1 = Button(root, text="Quit1", command=lambda: choose(1))
+b1 = Button(root, text="Button 1", height = 2, width = 25, command=lambda: choose(1))
 b1.pack()
-b2 = Button(root, text="Quit2", command=lambda: choose(2))
+b2 = Button(root, text="Button 2", height = 2, width = 25, command=lambda: choose(2))
 b2.pack()
-b3 = Button(root, text="Quit3", command=lambda: choose(3))
+b3 = Button(root, text="Button 3", height = 2, width = 25, command=lambda: choose(3))
 b3.pack()
-b4 = Button(root, text="Quit4", command=lambda: choose(4))
+b4 = Button(root, text="Button 4", height = 2, width = 25, command=lambda: choose(4))
 b4.pack()
-b5 = Button(root, text="Quit5", command=lambda: choose(5))
+b5 = Button(root, text="Button 5", height = 2, width = 25, command=lambda: choose(5))
 b5.pack()
-b6 = Button(root, text="Quit6", command=lambda: choose(6))
+b6 = Button(root, text="Button 6", height = 2, width = 25, command=lambda: choose(6))
 b6.pack()
-b7 = Button(root, text="Quit7", command=lambda: choose(7))
+b7 = Button(root, text="Button 7", height = 2, width = 25, command=lambda: choose(7))
 b7.pack()
-b8 = Button(root, text="exit", command=lambda: choose(8))
+b8 = Button(root, text="EXIT", height = 2, width = 25, command=lambda: choose(8))
 b8.pack()
 
 root.mainloop()
-
 
